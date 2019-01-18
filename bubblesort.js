@@ -13,7 +13,6 @@ function bubbleSort(array) {
             array[i+1] = swappedArr[1];
         }
     }
-    
     if (arr.every((element, ind) => element === array[ind])) return array
     else {return bubbleSort(array)}
 }
